@@ -9,6 +9,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.10.2"
+    "astro": "^5.10.2",
+    "mdx": "^0.2.3",
+    "react": "^19.1.0",
+    "svelte": "^5.34.9"
   }
 }
