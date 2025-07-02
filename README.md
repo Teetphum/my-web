@@ -11,6 +11,8 @@ Inside of your Astro project, you'll see the following folders and files:
 ├── src
 │   ├── assets
 │   │   └── astro.svg
+│   ├── blog
+│   │   └── 2025-first-blog.md
 │   ├── components
 │   │   └── Welcome.astro
 │   ├── layouts
