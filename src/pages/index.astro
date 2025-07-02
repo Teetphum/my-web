@@ -1,5 +1,6 @@
 ---
-const base = import.meta.env.BASE_URL
+import { Image } from 'astro:assets';
+import catWarImage from "../assets/cat-war.png";
 ---
 
 <html lang="en">
@@ -14,7 +15,6 @@ const base = import.meta.env.BASE_URL
     <h1>My Astro site</h1>
     <h2>Why my image on local not work but on prod is work?</h2>
     <h3>Bruh</h3>
-    <img src="cat-war.png" />
-    <img src={`${import.meta.env.BASE_URL}/cat-war.png`} />
+    <Image src={catWarImage} alt="A description of my image." />
   </body>
 </html>
